@@ -1,0 +1,51 @@
+WARNING:root:3024
+WARNING:root:中年女装秋装
+WARNING:root:http://s.taobao.com/search?&sort=sale-desc&tab=all&q=%D6%D0%C4%EA%C5%AE%D7%B0%C7%EF%D7%B0&s=
+WARNING:root:2
+WARNING:root:1
+WARNING:root:1
+WARNING:root:1
+WARNING:root:2
+WARNING:root:2
+WARNING:root:1
+WARNING:root:2
+WARNING:root:1
+WARNING:root:2
+WARNING:root:1
+WARNING:root:1
+WARNING:root:2
+WARNING:root:1
+WARNING:root:1
+WARNING:root:2
+there has 1 rows record
+3024
+http://s.taobao.com/search?&sort=sale-desc&tab=all&q=%D6%D0%C4%EA%C5%AE%D7%B0%C7%EF%D7%B0&s=
+=======================row search row==========================
+<a target="_blank" href="http://store.taobao.com/shop/view_shop.htm?user_number_id=760409643">和家缘旗舰店</a>
+760409643
+37218946327
+it is a tm item
+<a target="_blank" href="http://store.taobao.com/shop/view_shop.htm?user_number_id=2087374898">依墨尔服饰专营店</a>
+2087374898
+39337559185
+it is a tm item
+<a target="_blank" href="http://store.taobao.com/shop/view_shop.htm?user_number_id=1685612379">时尚妈妈1999</a>
+1685612379
+37358514541
+it is a tb item
+http://rate.taobao.com/feedRateList.htm?callback=jsonp2009&userNumId=1685612379&auctionNumId=37358514541&siteID=1&currentPageNum=1&rateType=&orderType=sort_weight&showContent=1&attribute=
+http://rate.taobao.com/feedRateList.htm?callback=jsonp2009&userNumId=1685612379&auctionNumId=37358514541&siteID=1&currentPageNum=2&rateType=&orderType=sort_weight&showContent=1&attribute=
+Traceback (most recent call last):
+  File "tb.py", line 346, in <module>
+    runcrawler()
+  File "tb.py", line 335, in runcrawler
+    searchcrawler(url)
+  File "tb.py", line 120, in searchcrawler
+    judge_site(item_url, sid_id)
+  File "tb.py", line 171, in judge_site
+    data = download_tb_reply_by_id(iid, sid_id)
+  File "tb.py", line 223, in download_tb_reply_by_id
+    res_json=get_html(url)
+  File "tb.py", line 60, in get_html
+    time.sleep(1)
+KeyboardInterrupt
