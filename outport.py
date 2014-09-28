@@ -56,7 +56,7 @@ def imports (num):
     try:
         while True:
             
-            count=cursor.execute('SELECT username FROM `wangwang_detal` where type = 1 and displayRateSum < 280  ORDER BY `Lastweek` DESC, `displayRateSum` DESC, `Lastmonth` DESC, `Lastsixmonth` DESC  limit 1 ')
+            count=cursor.execute('SELECT username FROM `wangwang_detal` where type = 1 and displayRateSum < 250  ORDER BY `Lastweek` DESC, `displayRateSum` DESC, `Lastmonth` DESC, `Lastsixmonth` DESC  limit 1 ')
             #print 'there has %s rows record' % count
             
             result=cursor.fetchone()
